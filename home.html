@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="homestyles.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <title>Bodegon El Peruano</title>
+  </head>
+  <body>
+      <!-- menubar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-auto" id="productos">
+        <div class="container">
+            <a class="navbar-brand" href="home.html"><img src="images/peru3.png" alt="logo el peruano" width="75px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nuestros productos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="sangria.html">Sangría</a>
+                        <a class="dropdown-item" href="ron.html">Ron</a>
+                        <a class="dropdown-item" href="whisky.html">Whisky</a>
+                        <a class="dropdown-item" href="vodka.html">Vodka</a>
+                        <a class="dropdown-item" href="ginebra.html">Ginebra</a>
+                        <a class="dropdown-item" href="anis.html">Anís</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="combos.html">Combos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contacto.html#contacto">Contáctanos</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="compra.html#compra">Metodos de pago</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+      <div class="social"><!-- barra de redes sociales -->
+            <ul>
+                <li><a href="#" target="_blank" class="icon-play"></a></li>
+                <li><a href="#" target="_blank" class="icon-google-plus"></a></li>
+                <li><a href="#" target="_blank" class="icon-facebook"></a></li>
+                <li><a href="#" target="_blank" class="icon-pinterest2"></a></li>
+                <li><a href="mailto:dfghjk@gmail.com" class="icon-mail"></a></li>
+            </ul>
+        </div><!-- barra de redes sociales -->
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/portada8.png" class="d-block w-100" alt="portada1">
+                    </div>
+             <div class="carousel-item">
+             <img src="images/portada2.png" class="d-block w-100" alt="portada2">
+             <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4">Mira nuestros combos</h5>
+                    <p>Ahorra más comprando nuetsros combos.</p>
+                    <a href="home.html#combos"><button type="button" class="btn btn-info">Ver</button></a>
+                  </div>
+             </div>
+             <div class="carousel-item">
+             <img src="images/portada3.png" class="d-block w-100" alt="portada3">
+             <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4">¿No sabes que tomaras hoy?</h5>
+                    <p>Echale un vistazo a lo más vendido.</p>
+                    <a href="home.html#masVendido"><button type="button" class="btn btn-info">Ir ahora</button></a>
+                  </div>
+             </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+            data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+            data-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="sr-only">Next</span>
+            </a>
+            </div> <!-- slider -->
+           <!-- contenedor de todos los productos  -->
+            <div class="container">
+                <h2 class="display-4 my-4" id="masVendido">Lo mas vendido</h2> <!-- lo mas vendido -->
+                <div class="mx-5 my-5">
+                <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/cocuyfruc.jpg" class="card-img-top" alt="cocuyfruc.jpg" height="250px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cocuy con Fructus</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample1">...</span><span class="collapse" id="collapseExample1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                    <p>
+                                    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                        Ver <span class="collapse show" id="collapseExample1">más</span><span class="collapse" id="collapseExample1">menos</span>
+                                    </button>
+                                    <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/cacique.png" class="card-img-top" alt="cacique.png" height="250px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cacique</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample4">...</span><span class="collapse" id="collapseExample4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                    <p>
+                                    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                                        Ver <span class="collapse show" id="collapseExample4">más</span><span class="collapse" id="collapseExample4">menos</span>
+                                    </button>
+                                    <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 16rem;">
+                                <img src="images/miche.jpg" class="card-img-top" alt="miche.jpg" height="250px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Miche andino Nevado</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample3">...</span><span class="collapse" id="collapseExample3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                    <p>
+                                    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                        Ver <span class="collapse show" id="collapseExample3">más</span><span class="collapse" id="collapseExample3">menos</span>
+                                    </button>
+                                    <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- lo mas vendido -->
+                <div class="row align-items-center"><!-- nuestros combos  -->
+                    <div class="col-md-9">
+                        <h2 class="display-4" id="combos">Nuestros combos</h2>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="combos.html#combos">
+                            <button type="button" class="btn btn-primary">Ver todos los combos</button>
+                        </a>
+                    </div>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="container px-5 my-5 contenedor">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 16rem;">
+                                        <img src="images/cocuyfruc.jpg" class="card-img-top" alt="cocuyfruc.jpg" height="250px">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Combo 1</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample5">...</span><span class="collapse" id="collapseExample5"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                            <p>
+                                            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+                                                Ver <span class="collapse show" id="collapseExample5">más</span><span class="collapse" id="collapseExample5">menos</span>
+                                            </button>
+                                            <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 16rem;">
+                                        <img src="images/combo2.jpg" class="card-img-top" alt="combo2.jpg" height="250px">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Combo 2</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample6">...</span><span class="collapse" id="collapseExample6"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                            <p>
+                                            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+                                                Ver <span class="collapse show" id="collapseExample6">más</span><span class="collapse" id="collapseExample6">menos</span>
+                                            </button>
+                                            <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col-md-4">
+                                <div class="card" style="width: 16rem;">
+                                    <img src="images/combo3.jpg" class="card-img-top" alt="combo3.jpg" height="250px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Combo 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample7">...</span><span class="collapse" id="collapseExample7"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                        <p>
+                                        <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+                                            Ver <span class="collapse show" id="collapseExample7">más</span><span class="collapse" id="collapseExample7">menos</span>
+                                        </button>
+                                        <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                        <div class="card" style="width: 16rem;">
+                                            <img src="images/combo4.png" class="card-img-top" alt="combo4.jpg" height="250px">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Combo 4</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample8">...</span><span class="collapse" id="collapseExample8"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                                <p>
+                                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+                                                    Ver <span class="collapse show" id="collapseExample8">más</span><span class="collapse" id="collapseExample8">menos</span>
+                                                </button>
+                                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="col-md-4">
+                                            <div class="card" style="width: 16rem;">
+                                                <img src="images/Combo5.jpg" class="card-img-top" alt="Combo5.jpg" height="250px">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Combo 5</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample9">...</span><span class="collapse" id="collapseExample9"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                                    <p>
+                                                    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample9">
+                                                        Ver <span class="collapse show" id="collapseExample9">más</span><span class="collapse" id="collapseExample9">menos</span>
+                                                    </button>
+                                                    <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="col-md-4">
+                                            <div class="card" style="width: 16rem;">
+                                                <img src="images/combo6.jpg" class="card-img-top" alt="combo6.jpg" height="250px">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Combo 6</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample10">...</span><span class="collapse" id="collapseExample10"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                                    <p>
+                                                    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample10">
+                                                        Ver <span class="collapse show" id="collapseExample10">más</span><span class="collapse" id="collapseExample10">menos</span>
+                                                    </button>
+                                                    <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <button type="button" class="bprev prev text-dark" href="#carouselExampleControls" data-slide="prev">⟨</button>
+                        <button type="button" class="bnext next text-dark" href="#carouselExampleControls" data-slide="next">⟩</button>
+                    </div>
+            </div><!-- nuestros combos  -->
+            <div class="row align-items-center"><!-- todos nuestros productos  -->
+                <div class="col-md-9">
+                    <h2 class="display-4" id="combos">Más productos</h2>
+                </div>
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Ver Todos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="sangria.html#sangria">Sangría</a>
+                            <a class="dropdown-item" href="ron.html#ron">Ron</a>
+                            <a class="dropdown-item" href="whisky.html#whisky">Whisky</a>
+                            <a class="dropdown-item" href="vodka.html#vodka">Vodka</a>
+                            <a class="dropdown-item" href="ginebra.html#ginebra">Ginebra</a>
+                            <a class="dropdown-item active" href="anis.html#anis">Anís</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="combos.html#combos">Combos</a>
+                        </div>
+                      </div>                
+                    </div>
+            </div>
+            <div class="mx-5 my-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 16rem;">
+                            <img src="images/whisky3.jpg" class="card-img-top" alt="whisky3.jpg" height="250px">
+                            <div class="card-body">
+                                <h5 class="card-title">Old Parr</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample14">...</span><span class="collapse" id="collapseExample14"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                <p>
+                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample14" aria-expanded="false" aria-controls="collapseExample14">
+                                    Ver <span class="collapse show" id="collapseExample14">más</span><span class="collapse" id="collapseExample14">menos</span>
+                                </button>
+                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 16rem;">
+                            <img src="images/cacique.png" class="card-img-top" alt="cacique.png" height="250px">
+                            <div class="card-body">
+                                <h5 class="card-title">Cacique</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample15">...</span><span class="collapse" id="collapseExample15"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                <p>
+                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample15" aria-expanded="false" aria-controls="collapseExample15">
+                                    Ver <span class="collapse show" id="collapseExample15">más</span><span class="collapse" id="collapseExample15">menos</span>
+                                </button>
+                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 16rem;">
+                            <img src="images/anis.png" class="card-img-top" alt="anis.png" height="250px">
+                            <div class="card-body">
+                                <h5 class="card-title">Anís Cartujo</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample16">...</span><span class="collapse" id="collapseExample16"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                <p>
+                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample16" aria-expanded="false" aria-controls="collapseExample16">
+                                    Ver <span class="collapse show" id="collapseExample16">más</span><span class="collapse" id="collapseExample16">menos</span>
+                                </button>
+                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-5 my-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 16rem;">
+                            <img src="images/vodka2.jpg" class="card-img-top" alt="vodka2.jpg" height="250px">
+                            <div class="card-body">
+                                <h5 class="card-title">Absolut Vodka</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample17">...</span><span class="collapse" id="collapseExample17"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                <p>
+                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample17" aria-expanded="false" aria-controls="collapseExample17">
+                                    Ver <span class="collapse show" id="collapseExample17">más</span><span class="collapse" id="collapseExample17">menos</span>
+                                </button>
+                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 16rem;">
+                            <img src="images/sangria.jpg" class="card-img-top" alt="sangria.jpg" height="250px">
+                            <div class="card-body">
+                                <h5 class="card-title">Sangría Caroreña</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample18">...</span><span class="collapse" id="collapseExample18"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                <p>
+                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample18" aria-expanded="false" aria-controls="collapseExample18">
+                                    Ver <span class="collapse show" id="collapseExample18">más</span><span class="collapse" id="collapseExample18">menos</span>
+                                </button>
+                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 16rem;">
+                            <img src="images/ginebra4.jpg" class="card-img-top" alt="ginebra4.jpg" height="250px">
+                            <div class="card-body">
+                                <h5 class="card-title">Opihr</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content<span class="collapse show" id="collapseExample19">...</span><span class="collapse" id="collapseExample19"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae earum unde necessitatibus consequatur assumenda praesentium explicabo velit culpa enim aperiam, molestiae, omnis fuga optio laborum soluta veniam. Praesentium, ducimus.</span></p>
+                                <p>
+                                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample19" aria-expanded="false" aria-controls="collapseExample19">
+                                    Ver <span class="collapse show" id="collapseExample19">más</span><span class="collapse" id="collapseExample19">menos</span>
+                                </button>
+                                <a href="compra.html#compra"><button class="btn btn-primary ml-3">Comprar</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-white py-5 text-center">
+            <p>@Derechos reservados para Luis hasta que richard me pague por esta web</p>
+        </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

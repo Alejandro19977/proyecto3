@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bprev{
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+    border-radius: 100px;
+    border: none;
+    padding: 0 20px 10px 20px;
+    background: none;
+}
+
+.bnext{
+    font-size: 60px;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    z-index: 2000;
+    border-radius: 100px;
+    border: none;
+    padding: 0 20px 10px 20px;
+    background: none;
+}
+
+.bnext:hover{
+    transform: scale(1.8);
+    transition:.2s;
+
+}
+
+.bprev:hover{
+    transform: scale(1.8);
+    transition:.2s;
+
+}
+
+.social{ /*  barra de redes sociales */
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul{
+    list-style: none;
+
+}
+
+.social ul li a{
+    display: inline-block;
+    color:white;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 450ms ease;
+}
+
+.social ul li .icon-facebook{background:blue ;}
+.social ul li .icon-mail{background:rgb(113, 185, 3) ;}
+.social ul li .icon-google-plus{background:#db4a39;}
+.social ul li .icon-play{background: #c4302b;}
+.social ul li .icon-pinterest2{background: #c8232c;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: black;
+}/*  barra de redes sociales */
